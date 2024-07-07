@@ -360,7 +360,7 @@ def get_degen_price():
 # Example usage
 if __name__ == "__main__":
     
-    telegram_token = '7139865116:AAG-fZTEI16pCfaqrGhLb_hSNf40vZagbNY'
+    telegram_token = '7139865116:AAG-fZTEI16pCfaqrGhLb_hSNf40vZagbNYABC'
     bot = telebot.TeleBot(telegram_token)
     updates = bot.get_updates()
     # chat_id = updates[0].message.chat.id
